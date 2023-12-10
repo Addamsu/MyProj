@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>first page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <p>its possible</p>
-    <p>hello it's me again</p>
+    <header>
+        <nav>
+            <h1> Personal Portfolio WEB DEV </h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Studies">Studies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Home" class="main_content">
+        <h4>Hi I am</h4>
+        <h1>Amzil Mohamed</h1>
+        <h3>Web Developer</h3>
+        <P>Beginner web developer, if you want know more about me press the button below </P>
+        <button>show my cv</button>
+    </section>
+    <section id="about">
+        <h1>About me</h1>
+        <img src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="check your connection" width="460" height="345">
+        <p>I'm a web developer with a focus on the full stack, but still exploring other technologies and frameworks
+            that catch my interest</p>
+        <h2>My intrests</h2>
+        <h4>Sport <span style='font-size:28px;'>&#127939;</span></h4>
+        <h4>Travel <span style='font-size:25px;'>&#128663;</span></h4>
+        <h4>Readin <span style='font-size:25px;'>&#128218;</span></h4>
+    </section>
+
+    <section id="Studies">
+        <h1>STUDIES</h1>
+
+        <div>
+            <h3>IT University</h3>
+            <h4>Degree: Web developement</h4>
+            <p>2013-2016</p>
+        </div>
+        <div>
+            <h3>IT University</h3>
+            <h4>Degree: Senior in IOT </h4>
+            <p>2017-2020</p>
+        </div>
+        <div>
+            <h3>IT University</h3>
+            <h4>Degree: Cyber security</h4>
+            <p>2022-2023</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact me</h1>
+        <form>
+            <form>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Email:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Envoyer Message ">
+                
+              </form>
+
+        </form>
+    </section>
+      <br><br>
+    <footer>
+        <p> MA_WEBDEV © . All rights reserved.</p>
+      </footer>
 </body>
+
 </html>
